@@ -1,7 +1,8 @@
 /*remove default enforced styles- no element to have margin or border unless specifically stated*/
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -43,3 +44,21 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
+
+/*Footer*/
+footer{
+    background: #717744;
+    width: 100%;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+footer h2{
+    display: inline;
+    color: #fefefe;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.5;
+    
+}
+
