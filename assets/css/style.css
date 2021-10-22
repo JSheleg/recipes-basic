@@ -1,0 +1,45 @@
+/*remove default enforced styles- no element to have margin or border unless specifically stated*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ABAC7F;
+    color: #080808;
+}
+
+/*header*/
+header{
+    padding: 20px 35px;
+    background-color:#717744;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fefefe;
+    margin: 0;
+    display: inline;
+}
+
+header a{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
