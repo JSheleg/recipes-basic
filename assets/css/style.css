@@ -116,7 +116,7 @@ section{
     text-align:center;
 }
 
-.breakfast h2{
+/* .breakfast h2{
     font-size: 55px;
     color: #373d20;
     margin-bottom: 35px;
@@ -124,7 +124,7 @@ section{
     border-bottom: 3px solid;
     border-color: #fefefe;
     display: inline-block;
-}
+} */
 
 .breakfast p {
     line-height: 1.7;
@@ -132,4 +132,49 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+
+.lunch{
+    text-align: center;
+    background: #373d20;
+}
+
+/* .lunch h2{
+    font-size: 55px;
+    color: #ABAC7F;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fefefe;
+} */
+
+.lunch div{
+    margin-bottom: 80px;
+}
+
+.lunch h3{
+    color: #fefefe;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.lunch p{
+    color: #ABAC7F;
+    font-size: 23px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #717744;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+  
+.primary-border {
+border-color: #fefefe;
+}
+  
+.secondary-border {
+border-color: #ABAC7F;
 }
