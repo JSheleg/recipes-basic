@@ -75,10 +75,7 @@ section{
     background-position: center top;
     
 }
-/* contact style */
-.contact{
-    position: relative;
-}
+
 
 /*Contact Form Style*/
 .contact-form{
@@ -86,20 +83,13 @@ section{
     padding: 20px;
     width: 500px;
     color: #fefefe;
-    border: solid 3px #080808;
-    position: absolute;
-    bottom: 50px;
-    right: 140px;  
+    border: solid 3px #080808;  
 }
 
 .contact-form p{
     margin: 5px 0 15px 0;
 }
 
-.contact-form h2{
-    font-size:24px;
-    margin:0;
-}
 .form-input{
     border: 1px solid #024e76;
     display: block;
