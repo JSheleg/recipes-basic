@@ -62,3 +62,16 @@ footer h2{
     
 }
 
+section{
+    padding: 50px;
+    
+}
+
+/*Hero Style*/
+.hero{
+    background-image: url('../img/foodimg.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center top;
+    
+}
