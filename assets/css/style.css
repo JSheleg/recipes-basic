@@ -63,7 +63,7 @@ footer h2{
 }
 
 section{
-    padding: 50px;
+    padding: 60px;
     
 }
 
@@ -74,4 +74,50 @@ section{
     background-size: cover;
     background-position: center top;
     
+}
+/* contact style */
+.contact{
+    position: relative;
+}
+
+/*Contact Form Style*/
+.contact-form{
+    background-color: #373d20;
+    padding: 20px;
+    width: 500px;
+    color: #fefefe;
+    border: solid 3px #080808;
+    position: absolute;
+    bottom: 50px;
+    right: 140px;  
+}
+
+.contact-form p{
+    margin: 5px 0 15px 0;
+}
+
+.contact-form h2{
+    font-size:24px;
+    margin:0;
+}
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom:15px;
+}
+
+.contact-form label{
+    margin: 0 5px;
+}
+
+.contact-form button{
+    color: #fefefe;
+    background-color: #717744;
+    border:none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
