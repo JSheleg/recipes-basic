@@ -80,11 +80,23 @@ section{
 }
 
 
-/*Contact Form Style*/
+/*Contact Style*/
+
+.contact{
+    background-color:#373d20;
+    
+    /* margin: 0 auto 0 auto; */
+}
+
+.contact h2{
+    display:inline-block;
+    text-align: center;
+}
+
 .contact-form{
-    background-color: #373d20;
+    background-color: #717744;
     padding: 20px;
-    width: 500px;
+    /* width: 500px; */
     color: #fefefe;
     border: solid 3px #080808;  
 }
