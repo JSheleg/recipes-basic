@@ -120,7 +120,7 @@ section{
     text-align: center;
 }
 
-.brecipe{
+.recipe{
     width: 900px; 
     margin: 0 auto 30px auto;
     background: #373d20;
@@ -128,12 +128,12 @@ section{
     overflow:auto;
 }
 
-.brecipe img{
+.recipe img{
     width: 35%;
     float: left;
 }
  
-.brecipe-body{
+.recipe-body{
     padding: 15px;
     float: left;
     width: 65%;
