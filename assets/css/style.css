@@ -97,7 +97,7 @@ section{
 
 .contact h2{
     display:inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .contact-form{
@@ -135,9 +135,9 @@ section{
 }
 
 /*breakfast section style*/
-.breakfast{
+/* .breakfast{
     text-align: center;
-}
+} */
 
 .recipe{
     width: 900px; 
@@ -236,10 +236,14 @@ section{
 .section-title {
     font-size: 55px;
     color: #717744;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    display: inline-block;
+    display: inline-block; */
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
   
 .primary-border {
@@ -256,4 +260,8 @@ border-color: #ABAC7F;
 
 .primary-card-color{
     background: #373d20;
+}
+
+.flex-row{
+    display:flex;
 }
